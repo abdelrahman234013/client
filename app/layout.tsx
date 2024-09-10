@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} min-h-screen`}
         style={{
-          backgroundImage: `url('/gif2.gif')`,
+          backgroundImage: `url('/download (22).jpeg')`,
           backgroundRepeat: "no-repeat",
           backgroundAttachment: "fixed",
           backgroundSize: "cover",
