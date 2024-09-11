@@ -241,14 +241,14 @@ const CustomerInfo = () => {
           <hr className="w-full" />
           <div
             className={`${
-              paymentMethod === "Pay With Visa" && "bg-secondary bg-opacity-40"
-            } flex gap-[9px] p-5 items-center`}
-            onClick={() => setPaymentMethod("Pay With Visa")}
+              paymentMethod === "Pay With Visa"
+            } flex gap-[9px] p-5 items-center line-through border-slate-400 cursor-not-allowed text-slate-400  hover:bg-none`}
+            onClick={() => setPaymentMethod("Cash On Delivery (COD)")}
           >
             <div
               className={`${
                 paymentMethod === "Pay With Visa"
-                  ? "bg-secondary"
+                  ? ""
                   : "border-secondary"
               }  border-2 w-[14px] h-[14px] rounded-full`}
             />
